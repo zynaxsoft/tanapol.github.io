@@ -1,5 +1,8 @@
-layout: sidebar
+layout: stacked
 style: light
+#host: 0.0.0.0
+host: 192.168.1.11
+port: 4649
 
 plugins:
   - jekyll-octicons
@@ -26,16 +29,18 @@ projects:
     archived: false
     forks: true
     projects:
-    # - repo-name
+      - dotfiles
+      - myscript
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: tanapol-pr
+  gitlab: zynaxsoft
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -47,12 +52,12 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  #  - name: CSS
+  #    web_url: https://github.com/topics/css
+  #    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  #
+  #  - name: Web design
+  #
+  #  - name: Sass
+  #    web_url: https://github.com/topics/sass
+  #    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
