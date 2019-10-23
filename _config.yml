@@ -1,6 +1,6 @@
 layout: stacked
 style: light
-#host: 192.168.1.11
+host: 0.0.0.0
 port: 4649
 
 plugins:
@@ -16,6 +16,7 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
+      image: true
       layout: "post"
 
 projects:
