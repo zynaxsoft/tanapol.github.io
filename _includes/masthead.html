@@ -26,6 +26,17 @@ Currently, Python is my language.🔥🔥🔥<br>
         </a>
       </div>
     {% endif %}
+
+
+
+    <div class="{{ metadata_styles }}">
+      {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
+      <a href="mailto:me@tanapol.dev" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        me@tanapol.dev
+      </a>
+    </div>
+
+
     {% if user.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}

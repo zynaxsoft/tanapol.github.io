@@ -1,7 +1,7 @@
 layout: stacked
 style: light
 host: 0.0.0.0
-port: 4649
+port: 8869
 
 plugins:
   - jekyll-octicons
